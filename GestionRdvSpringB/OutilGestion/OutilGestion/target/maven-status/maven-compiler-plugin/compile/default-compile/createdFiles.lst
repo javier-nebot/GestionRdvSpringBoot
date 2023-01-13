@@ -1,0 +1,16 @@
+Hopital_Saint\Joseph\OutilGestion\service\PatientService.class
+Hopital_Saint\Joseph\OutilGestion\controller\PatientController.class
+Hopital_Saint\Joseph\OutilGestion\DAO\RdvDAO.class
+Hopital_Saint\Joseph\OutilGestion\service\MedecinServiceImpl.class
+Hopital_Saint\Joseph\OutilGestion\controller\MedecinController.class
+Hopital_Saint\Joseph\OutilGestion\models\Patient.class
+Hopital_Saint\Joseph\OutilGestion\service\RdvService.class
+Hopital_Saint\Joseph\OutilGestion\DAO\MedecinDAO.class
+Hopital_Saint\Joseph\OutilGestion\models\Rdv.class
+Hopital_Saint\Joseph\OutilGestion\OutilGestionApplication.class
+Hopital_Saint\Joseph\OutilGestion\service\MedecinService.class
+Hopital_Saint\Joseph\OutilGestion\controller\RdvController.class
+Hopital_Saint\Joseph\OutilGestion\models\Medecin.class
+Hopital_Saint\Joseph\OutilGestion\DAO\PatientDAO.class
+Hopital_Saint\Joseph\OutilGestion\service\RdvServiceImpl.class
+Hopital_Saint\Joseph\OutilGestion\service\PatientServiceImpl.class

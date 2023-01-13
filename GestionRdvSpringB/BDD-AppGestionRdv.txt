@@ -1,0 +1,178 @@
+-----------------------------------------
+    "MEDECINS"
+	localhost:8080/api/medecins/
+-----------------------------------------
+
+{
+    "prenom":"Jhon",
+    "nom":"Bisturi",
+    "specialite":"Chirugien"
+}
+
+{
+    "prenom":"Sean",
+    "nom":"Couteau",
+    "specialite":"Chirugien"
+}
+{
+    "prenom":"Jhon",
+    "nom":"Veaux",
+    "specialite":"Generaliste"
+}
+
+-----------------------------------------
+    "PATIENTS"
+	localhost:8080/api/patients/
+-----------------------------------------
+{
+    "prenom":"Jain",
+    "nom":"Bobo"  
+}
+
+{
+    "prenom":"Suis",
+    "nom":"Coupe"  
+}
+
+{
+    "prenom":"Man",
+    "nom":"Tire"  
+}
+
+{
+    "prenom":"Pedro",
+    "nom":"Rojo"  
+}
+
+
+------------------------------
+    "RENDEZVOUS"
+	localhost:8080/api/rendezvous/
+-----------------------------
+..............1.....................
+{
+    "dateRdv":"2023-01-21T10:30:00",
+    "medecin": {
+        "idMedecin": 3,
+    	"prenom": "Jhon",
+    	"nom": "Veaux",
+    	"specialite": "Generaliste"
+    },
+    "patient": {
+    	"idSecu": 1,
+    	"prenom": "Jain",
+    	"nom": "Bobo" 
+    }
+}
+....................................
+...............2....................
+{
+    "dateRdv":"2023-01-21T10:30:00",
+    "medecin": {
+        "idMedecin": 3,
+    	"prenom": "Jhon",
+    	"nom": "Veaux",
+    	"specialite": "Generaliste"
+    },
+    "patient": {
+    	"idSecu": 2,
+    	"prenom":"Suis",
+    	"nom":"Coupe" 
+    }
+}
+.......................................
+...............3......................
+{
+    "dateRdv":"2023-01-21T10:30:00",
+    "medecin": {
+        "idMedecin": 3,
+    	"prenom": "Jhon",
+    	"nom": "Veaux",
+    	"specialite": "Generaliste"
+    },
+    "patient": {
+    	"idSecu": 3,
+    	"prenom":"Man",
+    	"nom":"Tire" 
+    }
+}
+..........................................
+.............4...........................
+{
+    "dateRdv":"2023-01-21T10:30:00",
+    "medecin": {
+        "idMedecin": 3,
+    	"prenom": "Jhon",
+    	"nom": "Veaux",
+    	"specialite": "Generaliste"
+    },
+    "patient": {
+    	"idSecu": 4,
+    	"prenom":"Pedro",
+    	"nom":"Rojo"
+    }
+}
+..........................................
+...............5.........................
+{
+    "dateRdv":"2023-01-21T10:30:00",
+    "medecin": {
+        "idMedecin": 1,
+    	"prenom":"Jhon",
+    	"nom":"Bisturi",
+    	"specialite":"Chirugien"
+    },
+    "patient": {
+    	"idSecu": 1,
+    	"prenom": "Jain",
+    	"nom": "Bobo" 
+    }
+}
+....................................
+...............6....................
+{
+    "dateRdv":"2023-01-21T10:30:00",
+    "medecin": {
+        "idMedecin": 1,
+    	"prenom":"Jhon",
+    	"nom":"Bisturi",
+    	"specialite":"Chirugien"
+    },
+    "patient": {
+    	"idSecu": 2,
+    	"prenom":"Suis",
+    	"nom":"Coupe" 
+    }
+}
+.......................................
+..............7........................
+{
+    "dateRdv":"2023-01-21T10:30:00",
+    "medecin": {
+        "idMedecin": 2,
+    	"prenom":"Sean",
+    	"nom":"Couteau",
+    	"specialite":"Chirugien"
+    },
+    "patient": {
+    	"idSecu": 3,
+    	"prenom":"Man",
+    	"nom":"Tire" 
+    }
+}
+..........................................
+.............8...........................
+{
+    "dateRdv":"2023-01-21T10:30:00",
+    "medecin": {
+        "idMedecin": 2,
+    	"prenom":"Sean",
+    	"nom":"Couteau",
+    	"specialite":"Chirugien"
+    },
+    "patient": {
+    	"idSecu": 4,
+    	"prenom":"Pedro",
+    	"nom":"Rojo"
+    }
+}
